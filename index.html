@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+
+h1
+{
+color:Chartreuse ;
+font-size:250%;
+font-weight:bold;
+font-family:Comic Sans MS;
+}
+
+
+</style>
+<script>
+function myfunc()
+{
+window.open("transactions.php");
+}
+function myfunc1()
+{
+window.open("customers.php");
+}
+</script>
+</head>
+<body style="background: url(img4.jpg) no-repeat center center fixed; -webkit-background-size: cover; ">
+<br><br>
+<center><h1>SPARKS FOUNDATION BANKING SYSYTEM</h1></center>
+<br>
+<form>
+<br>
+<br>
+<center>
+<input type="submit" name="submit" value="VIEW CUSTOMERS" onclick="myfunc1()" style="height: 40px; width: 250px; font-size: 20px; color: white; background-color: #4CAF50">
+<BR><BR><br><br>
+<input type="submit" name="submit" value="VIEW TRANSACTIONS" onclick="myfunc()" style="height: 40px; width: 250px; font-size: 20px; color: white; background-color: #4CAF50">  </center>
+</form>
+</body>
+</html>
