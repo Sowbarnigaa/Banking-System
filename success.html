@@ -11,25 +11,34 @@ font-size:250%;
 font-weight:bold;
 font-family:Comic Sans MS;
 }
+.button1{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 
+    text-decoration: none;
+    color: initial;
+}
+a {
+color:Chartreuse ;
+font-size:150%;
+font-weight:bold;
+font-family:Comic Sans MS;
+
+}
 
 </style>
-<script>
-function myfunc()
-{
-window.open("transactions.php");
-}
-</script>
+
 </head>
 <body style="background: url(img4.jpg) no-repeat center center fixed; -webkit-background-size: cover; ">
 <br><br>
 <center><h1>Payment Successful</h1></center>
 <br>
-<form>
+
 <br>
 <br>
 <center>
-<input type="submit" name="submit" value="VIEW TRANSACTIONS" onclick="myfunc()" style="height: 40px; width: 250px; font-size: 20px; color: white; background-color: #4CAF50">  </center>
-</form>
+<center><button style="height: 40px; width: 300px; font-size: 20px; color: white; background-color: #4CAF50"><a href="transactions.php" class="button1">View Transactions</a></button></center>
+
 </body>
 </html>
