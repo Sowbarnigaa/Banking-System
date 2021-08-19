@@ -12,18 +12,23 @@ font-weight:bold;
 font-family:Comic Sans MS;
 }
 
+.button1{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 
+    text-decoration: none;
+    color: initial;
+}
+a {
+color:Chartreuse ;
+font-size:150%;
+font-weight:bold;
+font-family:Comic Sans MS;
+
+}
 </style>
-<script>
-function myfunc()
-{
-window.open("transactions.php");
-}
-function myfunc1()
-{
-window.open("customers.php");
-}
-</script>
+
 </head>
 <body style="background: url(img4.jpg) no-repeat center center fixed; -webkit-background-size: cover; ">
 <br><br>
@@ -33,9 +38,12 @@ window.open("customers.php");
 <br>
 <br>
 <center>
-<input type="submit" name="submit" value="VIEW CUSTOMERS" onclick="myfunc1()" style="height: 40px; width: 250px; font-size: 20px; color: white; background-color: #4CAF50">
+
 <BR><BR><br><br>
-<input type="submit" name="submit" value="VIEW TRANSACTIONS" onclick="myfunc()" style="height: 40px; width: 250px; font-size: 20px; color: white; background-color: #4CAF50">  </center>
+
+<center><button style="height: 40px; width: 300px; font-size: 20px; color: white; background-color: #4CAF50"><a href="customers.php" class="button1">View Customers</a></button></center>
+<BR><BR><br><br>
+<center><button style="height: 40px; width: 300px; font-size: 20px; color: white; background-color: #4CAF50"><a href="transactions.php" class="button1">View Transactions</a></button></center>
 </form>
 </body>
 </html>
